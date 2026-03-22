@@ -7,6 +7,22 @@ The application integrates a trained ML model with a Flask backend and a simple 
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Initial UI (Before Input)
+This is the interface where users can enter laptop specifications:
+
+![Initial UI](homepage.png)
+
+---
+
+### 💰 Prediction Result (After Input)
+After entering values, the model predicts the laptop price instantly:
+
+![Prediction Result](result.png)
+
+---
+
 ## 🧠 Tech Stack
 
 - Machine Learning: Scikit-learn (Random Forest)
@@ -19,20 +35,22 @@ The application integrates a trained ML model with a Flask backend and a simple 
 
 ## ⚙️ Features
 
-- Predict laptop price instantly
-- User-friendly interface
-- REST API integration
-- Real-time data processing
-- Deployed web application
+- 🔍 Predict laptop price instantly
+- 🧠 Machine Learning model (Random Forest)
+- ⚡ Fast API using Flask
+- 💻 Clean and user-friendly interface
+- 🔗 REST API integration
+- 🌐 Ready for deployment
 
 ---
 
 ## 🧪 How It Works
 
-1. User enters laptop specifications
+1. User enters laptop specifications (RAM, Weight, Touchscreen)
 2. Frontend sends data to Flask API
 3. Backend processes input using trained ML model
-4. Predicted price is returned and displayed
+4. Model predicts laptop price
+5. Result is displayed instantly on the UI
 
 ---
 
