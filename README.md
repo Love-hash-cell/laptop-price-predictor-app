@@ -56,3 +56,15 @@ After entering values, the model predicts the laptop price instantly:
 
 ## 📁 Project Structure
 
+│
+├── app.py
+├── model.pkl
+├── columns.pkl
+├── requirements.txt
+├── Procfile
+├── index.html
+├── README.md
+│
+└── screenshots/
+├── home.png
+└── result.png
